@@ -1,7 +1,7 @@
 import os
 import httpx
 
-GEMINI_API_KEY = "AIzaSyBTOAEiGqBWo7tBEiOmrUbqHhzo3-5UtrM"
+GEMINI_API_KEY = "AIzaSyC5nG6rXlSr7tr2QgNf4XJPvZVaTL9bHs0"
 
 async def generate_analysis(sector: str, data: str) -> str:
     if not GEMINI_API_KEY:

@@ -4,7 +4,7 @@ async def search_market(sector: str) -> str:
     """
     Scrape live market news using Google News RSS
     """
-    query = f"India {sector} market trade"
+    query = f"{sector}"
     rss_url = (
         "https://news.google.com/rss/search?q={query}&hl=en-IN&gl=IN&ceid=IN:en"
     )

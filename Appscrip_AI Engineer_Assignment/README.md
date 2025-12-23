@@ -9,13 +9,11 @@ pip install fastapi uvicorn httpx
 ```bash
 uvicorn app.main:app --reload
 ```
+## Open Below URL
+http://127.0.0.1:8000/docs
 
 ## Authentication
-Send header:
-X-API-Key: CHANGE_ME
+X-API-Key: my_secret_key_123
 
 ## Endpoint
 GET /analyze/{sector}
-
-pharmaceuticals
-my_secret_key_123
